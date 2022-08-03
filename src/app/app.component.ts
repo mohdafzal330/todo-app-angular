@@ -25,7 +25,6 @@ export class AppComponent {
     } else {
       todo.isCompleted = false;
     }
-    console.log(e.target);
   }
 
   public handleDelete(todo){
